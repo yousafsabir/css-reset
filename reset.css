@@ -71,7 +71,7 @@ select {
 :where(input[type="file"])::file-selector-button {
     cursor: pointer;
 }
-:where(button, button[type], input[type="button"], input[type="submit"], input[type="reset"])[disabled] {
+:where(button, input)[disabled] {
     cursor: not-allowed;
 }
 table {
